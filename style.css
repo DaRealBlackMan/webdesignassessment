@@ -1,0 +1,182 @@
+/* Elements that control all content on pages */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    font-size: 3.8rem;
+    background-color: #c5d9e2;
+    
+}
+
+header {
+    background-color: #888888;
+    padding: 1em 0 40px;
+    text-align: center;
+    position: relative;
+    min-height: 100px;
+}
+
+h1 {
+    margin: 0 0 1rem;
+    font-size: 7.8rem;
+}
+
+.nav {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style-type: none;
+    background-color: #888888;
+    overflow: hidden;
+    right: 0;
+    top: 100%;
+    font-size: 3.8rem;
+    min-height: 100px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 0px;
+    border-radius: 10px;
+    background: #c9c9c9;
+    color: #c9c9c9;
+}
+
+
+
+.nav a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.nav a:hover {
+    background-color: #333;
+    color: #000;
+    border-radius: 10px;
+}
+
+.model {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.indexmain {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.8em;
+    
+}
+
+.border {
+    width: 93%;
+}
+
+.gallery {
+    width: 65%;
+    float: left;
+    margin: 0 auto;
+}
+.snap {
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 150px;
+    float: left;
+    margin: 0 auto;
+}
+.picture {
+    max-width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+
+#processmain {
+    padding-top: 5px;
+    margin: 0 auto;
+    height: 1110px;
+    width: 1400px;
+    float: right;
+    font-size: .8em;
+    text-align: left;
+    padding-right: 150px;
+            
+}
+
+
+#designshape {
+    text-align: left;
+    height: 650px;
+   
+}
+
+.shapeimage {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    float: right; 
+    display: inline-block;
+}
+
+
+#designtexture {
+    text-align: left;
+    height: 400px;
+}
+
+.textureimage {
+    padding-top: 5px;
+    padding-left: 150px;
+    padding-right: 150px;
+    float: right; 
+    display: inline-block;
+}
+
+
+#designcolour {
+    text-align: left;
+    height: 450px;
+}
+
+.colourimage {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    float: right; 
+    display: inline-block;
+}
+
+
+
+#designmain {
+    font-size: 0.8em;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 1050px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 900px;
+    min-height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+@media screen {
+    body {
+        width: 100%;
+    }
+}
+
